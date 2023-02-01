@@ -1,0 +1,55 @@
+body {
+  background: rgb(214,225,240)
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  height: 690px;
+  width: 270px;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  }
+
+.inner-content {
+  background: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.qr-code {
+  display: block;
+  width: 250px;
+  border-radius:15px;
+  justify-items: center;
+  margin: 10px;
+  background: white;
+}
+
+.qr-text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  width: 250px;
+}
+
+.header {
+  font-weight: 750;
+  padding: 7px 15px;
+  font-size: 16px;
+}
+
+.instructions {
+  font-size: 13px;
+  color: rbg(153,160,166);
+}
+
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
